@@ -1,0 +1,67 @@
+{
+    "level1" : [ "meteorology","hazard","unusual"],
+    "level2" : [
+        [ "Precipitation"
+            ,"Temperature"
+            ,"Visibility"
+            ,"Thunder, lightning"
+            ,"Optical"
+            ,"Wind"
+            ,"Cloud"
+            ,"Gas, Air"
+        ],
+        [ "Drought"
+            ,"Flood"
+            ,"Pest/Vermin"
+            ,"Crops"
+            ,"Disease"
+            ,"Famine"
+        ],
+        [ "Geophysical abnormities"
+            ,"Precipitation abnormities:color"
+            ,"Precipitation abnormities:plants"
+            ,"Precipitation abnormities:animal"
+            ,"Precipitation abnormities:metal"
+            ,"Acoustical abnormities"
+            ,"Sun-related phenomena"
+            ,"Moon-related phenomena"
+            ,"Astronomical phenomena"
+            ,"Plant abnormities"
+            ,"Animal abnormities"
+            ,"Socioeconomic turmoil"
+            ,"Others"
+        ]
+    ],
+    "code" : [
+        [ "10"
+            ,"11"
+            ,"12"
+            ,"13"
+            ,"14"
+            ,"15"
+            ,"16"
+            ,"17"
+        ],
+        [ "30"
+            ,"31"
+            ,"32"
+            ,"33"
+            ,"34"
+            ,"35"
+        ],
+        [ "50"
+            ,"53"
+            ,"56"
+            ,"57"
+            ,"58"
+            ,"59"
+            ,"62"
+            ,"63"
+            ,"64"
+            ,"65"
+            ,"68"
+            ,"71"
+            ,"95"
+        ]
+    ]
+  }

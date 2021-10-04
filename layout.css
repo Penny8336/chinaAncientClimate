@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+* {
+  box-sizing: border-box;
+  font: normal 14px/1.5 "Overpass", sans-serif;
+}
+
+.all{
+  background: #ffffff;
+
+}
+#wrapper{
+  background: #fdfcfa;
+  width: 1150px;
+  height: 950px;
+  box-shadow: 0 0 40px rgba(246, 247, 255, 0.5);
+}
+#top{
+  margin-top: 80px;
+
+}
+
+#myhead{
+  margin-top: 80px;
+  
+}
+
+
+
+@media (min-width: 992px){
+	.dropdown-menu .dropdown-toggle:after{
+		border-top: .3em solid transparent;
+	    border-right: 0;
+	    border-bottom: .3em solid transparent;
+	    border-left: .3em solid;
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+	.dropdown-menu li{
+		position: relative;
+	}
+	#unusual{
+	width: 260px;
+	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+    left:100%; top:-7px;
+    width: 150px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}
